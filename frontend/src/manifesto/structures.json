@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "url": "http://localhost",
+        "title": "Manifesto",
+        "footer": "Copyright Adaptive Behaviour 2025",
+        "keywords": [],
+        "openGraph": {
+            "url": "http://localhost",
+            "type": "website",
+            "title": "Manifesto",
+            "images": [],
+            "siteName": "Manifesto",
+            "description": "A framework for creating front end projects."
+        },
+        "description": "A framework for creating front end projects."
+    },
+    "manifest": {
+        "id": "manifest",
+        "type": "manifest",
+        "title": "Manifest",
+        "description": "A template for creating a manifest.",
+        "icon": "star",
+        "collection": "manifest",
+        "content": [],
+        "frontend": true,
+        "backend": false,
+        "mode": "dev",
+        "logging": "DEBUG",
+        "url": "http://localhost:3000",
+        "version": "0.1.0",
+        "keywords": []
+    }
+}

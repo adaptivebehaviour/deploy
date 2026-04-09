@@ -1,0 +1,2393 @@
+[
+    {
+        "uuid": "8f71fa45-d6c5-4221-91b3-d6f38519c454",
+        "created_at": "2025-04-14T21:36:20.969178+00:00",
+        "id": "property",
+        "type": "property",
+        "structure": {},
+        "factory": "property",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "9074424d-73af-41e8-8ccd-5b0c3e624243",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size1536",
+        "type": "property",
+        "structure": {
+            "size": 1536
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "90910756-a791-46e7-b5f5-8e68f3786465",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size32",
+        "type": "property",
+        "structure": {
+            "size": 32
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "949abc0d-383f-4360-912c-1f6dab6b232f",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size448",
+        "type": "property",
+        "structure": {
+            "size": 448
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "9883b222-80b1-43c8-a589-10bd615b502b",
+        "created_at": "2025-12-06T21:26:24.551356+00:00",
+        "id": "linkAccount",
+        "type": "property",
+        "structure": {
+            "link": "account"
+        },
+        "factory": "property",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "990cb0db-bd93-4177-bf41-c000bf193894",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size512",
+        "type": "property",
+        "structure": {
+            "size": 512
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "9a5812f2-b3cd-4a41-987e-446ed5b4b0f0",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size320",
+        "type": "property",
+        "structure": {
+            "size": 320
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "9d80741f-6960-4196-9e4a-86fd7a7a27db",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size896",
+        "type": "property",
+        "structure": {
+            "size": 896
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "a11ddb1a-20e5-4fa2-8d64-dd18c8bcba7d",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size1280",
+        "type": "property",
+        "structure": {
+            "size": 1280
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "aeb42867-2980-4069-978d-ccf54a51c74d",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size20",
+        "type": "property",
+        "structure": {
+            "size": 20
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "b70fe869-515e-4966-afb3-b36d34884f54",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size4096",
+        "type": "property",
+        "structure": {
+            "size": 4096
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "b7f629ae-1179-4cbb-8076-643bb9d7aec3",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size128",
+        "type": "property",
+        "structure": {
+            "size": 128
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "ba97fc04-e47a-4784-af25-24dce74ab249",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size6",
+        "type": "property",
+        "structure": {
+            "size": 6
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "bc5f982d-a30b-4245-adc1-d28ec91d5114",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size24",
+        "type": "property",
+        "structure": {
+            "size": 24
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "bedbe7e0-dffa-4652-be7b-5b03332ea406",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size160",
+        "type": "property",
+        "structure": {
+            "size": 160
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c19632cb-75ae-44d0-921b-1578d3db2d3b",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size2560",
+        "type": "property",
+        "structure": {
+            "size": 2560
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c1a692e4-e329-44d6-aace-ddcc04480251",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size4",
+        "type": "property",
+        "structure": {
+            "size": 4
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c4b75089-ae62-441a-910a-490b81cf2a24",
+        "created_at": "2025-03-08T20:56:29.850202+00:00",
+        "id": "structure",
+        "type": "structure",
+        "structure": {},
+        "factory": "structure",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c74b792a-e593-4a82-8f4d-fe047de1feba",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size2048",
+        "type": "property",
+        "structure": {
+            "size": 2048
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "ca404978-1f91-4071-a737-bfe7263f0b5b",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size112",
+        "type": "property",
+        "structure": {
+            "size": 112
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "d04087c4-19f7-46d3-9c8a-9251929ec19e",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size1792",
+        "type": "property",
+        "structure": {
+            "size": 1792
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "d59fb0e4-c3ff-4a12-9143-44ebf963336e",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size192",
+        "type": "property",
+        "structure": {
+            "size": 192
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "df150094-52d6-4e0d-a9eb-083cf477cb43",
+        "created_at": "2025-11-21T03:52:58.922103+00:00",
+        "id": "link",
+        "type": "property",
+        "structure": {
+            "link": ""
+        },
+        "factory": "property",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "e0dbafe5-d95a-4d44-bbfb-e747da42a1f4",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size3584",
+        "type": "property",
+        "structure": {
+            "size": 3584
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "e2c7397b-5552-422f-b57b-3924695fb37d",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size30",
+        "type": "property",
+        "structure": {
+            "size": 30
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "e39e618b-fcee-4f9b-b6fa-17fa24a9133f",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size768",
+        "type": "property",
+        "structure": {
+            "size": 768
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "e94c0c3b-88a3-4ae1-9de7-246d8b8781df",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size28",
+        "type": "property",
+        "structure": {
+            "size": 28
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "f2ac4df6-fbe8-463f-9f14-3da16fb7e51d",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size14",
+        "type": "property",
+        "structure": {
+            "size": 14
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "f809949e-322c-47b0-b4c8-85bdb2ffc949",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size72",
+        "type": "property",
+        "structure": {
+            "size": 72
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "02741153-d037-4f2a-8fcc-ba2da3b1a840",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size10",
+        "type": "property",
+        "structure": {
+            "size": 10
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "0643eb10-ae2e-4f83-a62a-c49eed5b56f4",
+        "created_at": "2025-05-06T20:43:24.284492+00:00",
+        "id": "style",
+        "type": "property",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "068738c8-e735-4fa7-8b68-2d849da28d00",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "middle",
+        "type": "property>style",
+        "structure": {
+            "align": "middle",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "07eb4274-37d2-4946-83b9-5dc3edc070c6",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "round1",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "round": 0.1
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "09126f52-d3fe-45b5-be2c-4b6cd56aed44",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size224",
+        "type": "property",
+        "structure": {
+            "size": 224
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "0fc62ca6-2fc5-47f4-a15e-55a1c45e895a",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size80",
+        "type": "property",
+        "structure": {
+            "size": 80
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "10d96a7f-791f-4e05-9b59-ca73f6f96920",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "selected-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#f0f0f0",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "11c4c87e-601f-499e-bbc0-cf74918eea6f",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "info",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#3ae7e1",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "18cf2199-9362-4af8-92bb-b5fb6a1694c9",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "info-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#c1fef6",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "19162176-4454-4106-930e-82198e434f5c",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "bottom-left",
+        "type": "property>style",
+        "structure": {
+            "align": "bottom-left",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "1ccf36d1-730d-441c-bc0e-08534347391f",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size16",
+        "type": "property",
+        "structure": {
+            "size": 16
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "21fe8aa3-e438-42f8-bb67-3255f300c81c",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "secondary",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#f7c948",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "229da4ce-643f-4d19-9a6f-fec65666bb39",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size3072",
+        "type": "property",
+        "structure": {
+            "size": 3072
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "24cb833e-42ca-4155-b862-a895b36a0a15",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "secondary-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#cb6e17",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "26537d5b-c711-431e-ac27-e2d211fdaed9",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size640",
+        "type": "property",
+        "structure": {
+            "size": 640
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "2b09e0ec-0e52-4aa1-a9e0-ec5617bb6ff9",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "shade6",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#1f1f1f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "2cd1319a-cb78-4804-bed2-dca9f1c7ae9d",
+        "created_at": "2025-03-13T23:16:27.180338+00:00",
+        "id": "rect",
+        "type": "property",
+        "structure": {
+            "x": 0,
+            "y": 0,
+            "width": 16,
+            "height": 16
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "2e2f551d-1611-48a5-9b25-e92231f5a96c",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "warning-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#fff3c4",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "2fc4e2bf-9d13-4012-96c2-84d0a0d4dc68",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size256",
+        "type": "property",
+        "structure": {
+            "size": 256
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "312c6679-8022-4d37-8f81-72d3bcbeb7d3",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "justify",
+        "type": "property>style",
+        "structure": {
+            "align": "justify",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "32e3de36-30a8-470c-ab4b-c37e2056fe8d",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "outline1",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "outline": 0.01
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "33cf704f-f40a-47a0-917c-b3b28682a84f",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "tint7",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#efefef",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "364321a7-1072-44be-9f29-87298cf78fa9",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "warning",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#fadb5f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "36643704-dba4-4d9f-a0c5-cdc9af3990dd",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "danger",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#e12d39",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "38858dae-fc82-4256-83da-89274a5ce63f",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size56",
+        "type": "property",
+        "structure": {
+            "size": 56
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "38fc6e0d-7676-46e4-8846-7ab0ee6aaf65",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "danger-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#ff9b9b",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "3c6419a5-5143-462a-8e45-2e52bceabe27",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "neutral-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#cbd2d9",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "3cc53d71-4a68-4e2f-ab55-3590be377363",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size18",
+        "type": "property",
+        "structure": {
+            "size": 18
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "3d25353c-df5c-4109-942c-b9e6d31ba301",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "tint5",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#cfcfcf",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "4000459c-608b-4748-a5ca-c037fd16db8b",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size1024",
+        "type": "property",
+        "structure": {
+            "size": 1024
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "4133401b-9113-438e-8118-d0815b79d200",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "round3",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "round": 0.3
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "4619bd86-7dbe-476d-8ec1-c875df35e1ec",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size48",
+        "type": "property",
+        "structure": {
+            "size": 48
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "49306efa-833f-4f45-9943-32c435976c43",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "selected",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#e0e0e0",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "3b9df25b-97a1-45c4-b223-0eab9a29a089",
+        "created_at": "2025-07-17T20:50:09.963715+00:00",
+        "id": "fetcher",
+        "type": "structure",
+        "structure": {
+            "schema": "{{%baseUrl}/fetch?fetcher=fetcher&id={%target}}"
+        },
+        "factory": "fetcher",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "0ce8ae42-5f32-417b-afe9-e36fa0432904",
+        "created_at": "2025-07-17T20:45:20.9659+00:00",
+        "id": "notion",
+        "type": "structure>fetcher",
+        "structure": {
+            "schema": "{{%baseUrl}/get?source=notion&id={%target}}"
+        },
+        "factory": "notion",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "5166ac74-c38f-46c4-9618-35d92b487962",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size384",
+        "type": "property",
+        "structure": {
+            "size": 384
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "542b305b-d571-4780-88d1-a495f891a3e0",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "bottom-right",
+        "type": "property>style",
+        "structure": {
+            "align": "bottom-right",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "55cb969f-d2bf-418e-9d81-fe4bd8fe9d71",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "outline2",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "outline": 0.02
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "5864b880-4513-48ec-8828-bdd79f9f1503",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "tint4",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#bfbfbf",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "5a34f9dd-50bb-423e-9e1f-d13715e9b65c",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "colour",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "5b9526d9-c498-403f-8744-ed517e60ebc9",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "round2",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "round": 0.2
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "5bbe3a09-31ae-4a20-8256-e1446b998139",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "outline3",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "outline": 0.03
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "5d8ac81d-e0da-48d8-852f-26216d493333",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size12",
+        "type": "property",
+        "structure": {
+            "size": 12
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "5f3d963f-d51f-4291-9440-5b4e2d92d754",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "font-mono",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "font": "mono"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "608d281d-4535-4a85-b097-fb79386d0538",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "tint3",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#afafaf",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "627faac6-65e2-4c5b-b1f8-6b60f3d2601b",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "selected-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#d0d0d0",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "64e0e5a1-b247-49d1-8ce1-f17c619946de",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "critical-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#de3a11",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "65215742-5fdb-4126-8b0d-d75708e62c31",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size8",
+        "type": "property",
+        "structure": {
+            "size": 8
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "6649baa8-b2e5-4d06-8a49-ee702691f2f1",
+        "created_at": "2025-04-09T21:19:42.465025+00:00",
+        "id": "component",
+        "type": "structure",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "component",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "66a5e065-e36f-4fb5-a09b-20cb4b13ceaa",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size40",
+        "type": "property",
+        "structure": {
+            "size": 40
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "6b5317f5-9811-43c1-99e7-d828e21e55df",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "danger-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#8a041a",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "6beec29e-463a-4bc5-885b-64c582cfaa06",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "primary",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#2186eb",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "6d5e27e0-9cc3-4abd-bd7a-7ff771e9f928",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "vertical",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "6e768e16-6ea0-4960-98ca-43d09b14d3e7",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size2",
+        "type": "property",
+        "structure": {
+            "size": 2
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "70ae486f-e0fb-4245-b5c5-659215406625",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "critical-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#ffb088",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "710dafdf-aa0b-4292-8f31-746eb28c3ec3",
+        "created_at": "2025-03-11T23:38:52.089506+00:00",
+        "id": "layout",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "79b1b301-4c59-4a0a-91bf-a87e91cd23de",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "primary-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#03449e",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "7ba3e22e-f3c4-4d39-923b-28c8ccbdb065",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "font-id",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "font": "id"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "7e67ce65-5b7f-437a-958d-704557e5c99a",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "neutral-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#1f2933",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "7f2b4349-9e3a-49c5-94a5-6f8dca6ec5fa",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size96",
+        "type": "property",
+        "structure": {
+            "size": 96
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "7f724ee5-1c80-43d3-a900-6b1891b706c5",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size288",
+        "type": "property",
+        "structure": {
+            "size": 288
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "80ad619c-2808-4c97-842e-663e1e627004",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "horizontal",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "horizontal"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "816d087b-d526-4822-8811-f530b559179a",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "top",
+        "type": "property>style",
+        "structure": {
+            "align": "top",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "81f13050-489e-493b-b3ef-b1992d7aac0c",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size36",
+        "type": "property",
+        "structure": {
+            "size": 36
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "82b05f61-c3db-4a73-8474-09713515dcca",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "font-ui",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "font": "ui"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "8570d469-3b94-4ded-aa1b-a768e1b83ba1",
+        "created_at": "2025-03-20T21:18:06.012182+00:00",
+        "id": "gray",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#7f7f7f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "87597a76-606b-46e3-8ce3-cddbdc8a039e",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "neutral",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#52606d",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "8b6b334b-5f54-4ec7-9180-ab00eea23bc7",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "center",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "8bfdba20-7adb-4e67-85e3-f9d1b8956bf5",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "shade2",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#5f5f5f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "8cf77ac7-2974-42d4-80e8-16921edff212",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "shade7",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#0f0f0f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "8e589c28-70f6-44e3-a581-5fd54afd4985",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "size64",
+        "type": "property",
+        "structure": {
+            "size": 64
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "8e60d7ac-2636-4637-bf7b-dff2db472ad2",
+        "created_at": "2025-03-11T23:39:40.312793+00:00",
+        "id": "size",
+        "type": "property",
+        "structure": {
+            "size": 16
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "9b323fa4-17df-44ae-8a1b-ffbea62c1269",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "shade5",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#2f2f2f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "9bc25d4d-985e-4c85-9f84-bf9b229b1e0a",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "font-sans",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "font": "sans"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "9d97fa4a-4e91-4984-bf25-8f6aba5f7e6d",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "grey",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#7f7f7f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "a9e4736b-6992-4d37-accb-330e475896b5",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "critical",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#f0703e",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "aad007e5-8eff-4ccb-bd4c-7915007a4c82",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "outline4",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "outline": 0.04
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "afca0693-d09d-45dd-a4dc-a1872b8684d6",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "right",
+        "type": "property>style",
+        "structure": {
+            "align": "right",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "b5332663-8edc-4877-8609-4aeed5e23f01",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "warning-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#f0b429",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "b935bad4-159b-4325-b661-616356a31e4f",
+        "created_at": "2025-03-11T23:35:57.978507+00:00",
+        "id": "font",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "font": "sans"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "b9ca35fa-a09a-4d1b-a9ad-98f6566cd327",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "secondary-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#fff3c4",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "babd63bc-43bd-426d-ab62-453c5cb07543",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "font-serif",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical",
+            "font": "serif"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "badd45be-423c-4244-9148-205adddcd6ae",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "positive-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#147d64",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c03c496d-4e81-4ffc-942f-af07539119da",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "bottom",
+        "type": "property>style",
+        "structure": {
+            "align": "bottom",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c27df12b-0fa1-4418-b715-41dc30db692d",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "shade4",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#3f3f3f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c37c6f9c-33d7-43de-8412-3b963d854a23",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "top-right",
+        "type": "property>style",
+        "structure": {
+            "align": "top-right",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "c7a355e6-7309-431f-beb2-e326f81a62e0",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "tint1",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#8f8f8f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "cc2dddf2-c373-486d-b1f0-cff2ccdfc1ec",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "info-dark",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#099aa4",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "cf9936b8-cc74-41a5-bd0c-8d8df289a96b",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "primary-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#bae3ff",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "e1b54f2b-9045-4764-a910-4d75f98bc930",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "white",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#FFFFFF",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "eb5b400f-dd27-4444-8587-ebfce5419dd8",
+        "created_at": "2025-12-09T00:33:30.113977+00:00",
+        "id": "form",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "submit": "{$form-submit}"
+        },
+        "factory": "form",
+        "content": [
+            "{$form-field}",
+            "{#submit}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "f00a5b92-355f-4815-9401-c4b52ce3f532",
+        "created_at": "2025-07-10T21:39:21.609278+00:00",
+        "id": "panel",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "panel",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "f24e68a7-0c1a-4034-a3d1-f834f19b6794",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "shade1",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#6f6f6f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "f2a4d34a-0bf9-4a3c-8dd2-893a3d2b7910",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "shade3",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#4f4f4f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "e5118535-92e1-43aa-80bb-0e4ec7e9eeba",
+        "created_at": "2025-12-09T00:59:04.454261+00:00",
+        "id": "form-submit",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "submit",
+        "content": [
+            "Submit"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "f64b936d-20f0-42cb-a791-b53c1a983298",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "black",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "f89ccb8a-a0a9-40a9-9091-cf658da0bc15",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "top-left",
+        "type": "property>style",
+        "structure": {
+            "align": "top-left",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "f911ff44-1632-4c57-852f-744f2e045c91",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "tint6",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#dfdfdf",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "fd22d4b5-886b-4239-814b-6223b651e6b5",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "tint2",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#9f9f9f",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "fe133d2d-ea31-481d-98ce-cc0c699ae113",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "left",
+        "type": "property>style",
+        "structure": {
+            "align": "left",
+            "colour": "#000000",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "6bc2265a-eff1-4f82-8c00-ea9eb59af2f7",
+        "created_at": "2025-04-20T21:20:39.979993+00:00",
+        "id": "db",
+        "type": "structure>fetcher",
+        "structure": {
+            "schema": "{https://nhnfxtsggjvnkgoeouss.supabase.co/rest/v1/{%table}?apikey=sb_publishable_DhjTSCheKZqDLJomiBOiSg_Z4aCv6uh&select=*&id=eq.{%target}}"
+        },
+        "factory": "database",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "4ae431c3-6c2f-4d18-b805-06759b499a0d",
+        "created_at": "2025-04-20T21:05:55.405632+00:00",
+        "id": "cms",
+        "type": "structure>fetcher",
+        "structure": {
+            "schema": "{https://rmqbeuql.apicdn.sanity.io/v{%date}/data/query/content?query=*[id=='{%target}']}"
+        },
+        "factory": "cms",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "017c50e0-fba1-4e9f-a6c7-0d2c34617ab0",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "positive-light",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#c6f7e2",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "0399cf55-3085-4c27-8ec8-eaacad40e66a",
+        "created_at": "2025-03-08T21:04:13.242886+00:00",
+        "id": "positive",
+        "type": "property>style",
+        "structure": {
+            "align": "center",
+            "colour": "#3ebd93",
+            "orientation": "vertical"
+        },
+        "factory": "style",
+        "content": [],
+        "properties": []
+    },
+    {
+        "uuid": "174942f1-b94a-4be3-9c06-51b009f8a8b0",
+        "created_at": "2025-11-21T03:57:22.06977+00:00",
+        "id": "nav-bar",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "nav-bar",
+        "content": [
+            "Apps",
+            "Docs",
+            "About"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "292abb77-d6a4-4515-a39c-2c417a2da740",
+        "created_at": "2025-03-13T22:59:40.441066+00:00",
+        "id": "icon",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "back": "{$icon-back}",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 96,
+                "height": 96
+            },
+            "front": "{$icon-front}"
+        },
+        "factory": "icon",
+        "content": [
+            "{#back}",
+            "{#front}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "rect"
+        ]
+    },
+    {
+        "uuid": "2a91c4f6-1b7a-43a8-8a5d-d93df145b0eb",
+        "created_at": "2025-07-10T21:36:26.373384+00:00",
+        "id": "screen",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "screen",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "47c6b958-32ba-4924-b0a8-0a61935b9b01",
+        "created_at": "2025-07-10T21:39:21.609278+00:00",
+        "id": "display",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "display",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "492806f0-1e09-4430-ae93-1cdc4c856d7f",
+        "created_at": "2025-12-08T00:12:32.096481+00:00",
+        "id": "footer",
+        "type": "structure>component>display",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "footer",
+        "content": [
+            "Made with Manifesto"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "433c3eb4-2663-46c6-a808-aad7660dcb57",
+        "created_at": "2025-11-22T21:25:42.009451+00:00",
+        "id": "webpage",
+        "type": "structure>component>screen",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "body": "{$body}",
+            "route": "",
+            "title": "Home",
+            "footer": "{$footer}",
+            "header": "{$header}"
+        },
+        "factory": "webpage",
+        "content": [
+            "{#header}",
+            "{#body}",
+            "{#footer}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "0c76ee83-caa6-4a7a-96e5-d4f0f2484a85",
+        "created_at": "2025-12-08T23:43:37.583902+00:00",
+        "id": "form-field",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "name": "field",
+            "label": ""
+        },
+        "factory": "form-field",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "4b65958a-64cb-416f-bb6e-b413eb37d1f2",
+        "created_at": "2025-03-12T19:57:02.616315+00:00",
+        "id": "item",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null
+        },
+        "factory": "item",
+        "content": [
+            "{#item}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal"
+        ]
+    },
+    {
+        "uuid": "58112990-e281-410c-86a0-706c7f1e7bde",
+        "created_at": "2025-12-06T21:06:15.572973+00:00",
+        "id": "account-icon",
+        "type": "structure>component>icon",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "back": "{$icon-back}",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 96,
+                "height": 96
+            },
+            "front": "{@cms$icon-front?user}"
+        },
+        "factory": "icon",
+        "content": [
+            "{#back}",
+            "{#front}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "rect"
+        ]
+    },
+    {
+        "uuid": "5a8e71a5-faf7-477e-99c1-3958eabafe6f",
+        "created_at": "2025-12-08T22:14:57.46402+00:00",
+        "id": "menu",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "anchor": "{$menu-icon}"
+        },
+        "factory": "menu",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "6c4ac98d-4982-4b85-93be-d5e8eb042788",
+        "created_at": "2025-03-12T20:20:03.810265+00:00",
+        "id": "image",
+        "type": "structure>component>item",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null
+        },
+        "factory": "image",
+        "content": [
+            "{@cms?image-landscape}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "rect"
+        ]
+    },
+    {
+        "uuid": "73d4bb48-10c2-4f2a-b73b-153d2ee35b44",
+        "created_at": "2025-03-17T04:14:52.942289+00:00",
+        "id": "manifesto-icon",
+        "type": "structure>component>icon",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "back": {
+                "colour": "#000000",
+                "content": "{@cms$image?manifesto}"
+            },
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 96,
+                "height": 96
+            },
+            "front": {
+                "x": 24,
+                "y": 7,
+                "width": 48,
+                "colour": "#FFFFFF",
+                "height": 48,
+                "content": [
+                    "{$icon-front}"
+                ]
+            }
+        },
+        "factory": "icon",
+        "content": [
+            "{#back}",
+            "{#front}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "rect"
+        ]
+    },
+    {
+        "uuid": "78b5e727-4678-41ca-ad33-f75c59543dce",
+        "created_at": "2025-03-12T20:09:12.93693+00:00",
+        "id": "text",
+        "type": "structure>component>item",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null
+        },
+        "factory": "text",
+        "content": [
+            "{#item}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "font",
+            "size16"
+        ]
+    },
+    {
+        "uuid": "8879f433-88ed-428e-b414-3da865129d57",
+        "created_at": "2025-12-08T22:23:03.704145+00:00",
+        "id": "menu-icon",
+        "type": "structure>component>icon",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "back": "{$icon-back}",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 96,
+                "height": 96
+            },
+            "front": "{@cms$icon-front?bars}"
+        },
+        "factory": "icon",
+        "content": [
+            "{#back}",
+            "{#front}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "rect"
+        ]
+    },
+    {
+        "uuid": "8ffa3c48-780e-49d6-96be-550b31c7a95d",
+        "created_at": "2025-12-06T21:22:23.74764+00:00",
+        "id": "account-nav",
+        "type": "structure>component>icon>account-icon",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "back": "{$icon-back}",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 96,
+                "height": 96
+            },
+            "front": "{@cms$icon-front?user}"
+        },
+        "factory": "icon",
+        "content": [
+            "{#back}",
+            "{#front}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "rect",
+            "linkAccount"
+        ]
+    },
+    {
+        "uuid": "bbe56ed0-2d27-4aa8-baf1-e300a9275a7d",
+        "created_at": "2025-07-10T21:39:21.609278+00:00",
+        "id": "page",
+        "type": "structure>component>screen",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "page",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "c3b233d0-8c6e-4e0c-b75e-4b45ad8d65c0",
+        "created_at": "2025-07-07T21:22:23.569135+00:00",
+        "id": "ab-id-logo",
+        "type": "structure>component>item>image",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null
+        },
+        "factory": "image",
+        "content": [
+            "{@cms?ab-id-logo}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "rect"
+        ]
+    },
+    {
+        "uuid": "c7c9f2a2-a05e-430d-a37f-59cfefba8620",
+        "created_at": "2025-11-19T19:30:45.778096+00:00",
+        "id": "id-panel",
+        "type": "structure>component>panel",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "logo": "{@cms$image?manifesto-star}",
+            "title": "Manifesto"
+        },
+        "factory": "id-panel",
+        "content": [
+            "{#logo}",
+            "{#title}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal"
+        ]
+    },
+    {
+        "uuid": "cf3280ea-f8a2-46c3-9a94-b2b624d01a9f",
+        "created_at": "2025-03-13T22:49:54.277164+00:00",
+        "id": "svg",
+        "type": "structure>component>item>image",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null
+        },
+        "factory": "svg",
+        "content": [
+            "{@cms?svg}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "rect"
+        ]
+    },
+    {
+        "uuid": "e4ce4804-a338-49be-9e9c-9e154e8231d6",
+        "created_at": "2025-12-08T05:20:06.036668+00:00",
+        "id": "body",
+        "type": "structure>component>display",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "body",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "f1d827cc-6922-4d68-8b3f-7dd095e6d7cb",
+        "created_at": "2025-03-13T22:54:43.140126+00:00",
+        "id": "icon-front",
+        "type": "structure>component>item>image>svg",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null,
+            "rect": {
+                "x": 16,
+                "y": 16,
+                "width": 64,
+                "height": 64
+            }
+        },
+        "factory": "svg",
+        "content": [
+            "{@cms?star}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "rect",
+            "black"
+        ]
+    },
+    {
+        "uuid": "128d152a-ae85-4088-9ffc-a4617d7d5f84",
+        "created_at": "2025-11-23T20:11:36.69762+00:00",
+        "id": "title",
+        "type": "structure>component>item>text",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null
+        },
+        "factory": "text",
+        "content": [
+            "Manifesto"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "font",
+            "size16"
+        ]
+    },
+    {
+        "uuid": "17a4b7d5-b91a-4829-92e8-aa0a2287b99a",
+        "created_at": "2025-11-22T22:07:43.784235+00:00",
+        "id": "header",
+        "type": "structure>component>display",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "menu": "{$menu}",
+            "idPanel": "{$id-panel}",
+            "siteNav": "{$nav-bar}"
+        },
+        "factory": "header",
+        "content": [
+            "{#idPanel}",
+            "{#siteNav}",
+            "{#menu}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "size48"
+        ]
+    },
+    {
+        "uuid": "1b46589c-5b89-4ccc-a262-be638f15559a",
+        "created_at": "2025-07-10T21:39:21.609278+00:00",
+        "id": "app",
+        "type": "structure>component>screen",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "app",
+        "content": [],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "27f2084d-9bd8-4e03-bc9f-8bd00ce8d6cb",
+        "created_at": "2025-07-07T21:27:14.559139+00:00",
+        "id": "text-placeholder",
+        "type": "structure>component>item>text",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null
+        },
+        "factory": "text",
+        "content": [
+            "{@cms?placeholder}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "font",
+            "size16"
+        ]
+    },
+    {
+        "uuid": "7090d572-842d-4323-925f-b696d6305c67",
+        "created_at": "2025-03-13T22:52:22.51349+00:00",
+        "id": "icon-back",
+        "type": "structure>component>item>image>svg",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "item": null,
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 96,
+                "height": 96
+            }
+        },
+        "factory": "svg",
+        "content": [
+            "{@cms?stop}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal",
+            "rect",
+            "white"
+        ]
+    }
+]

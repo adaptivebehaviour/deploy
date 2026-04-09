@@ -1,0 +1,56 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "frontend",
+            "type": "shell",
+            "command": ".vscode/frontend.bat",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "typescript",
+                "pattern": {
+                    "regexp": "^(.*)$",
+                    "file": 1
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": ".*(ready|Ready|Local:).*"
+                }
+            }
+        },
+        {
+            "label": "backend",
+            "type": "shell",
+            "command": ".vscode/backend.bat",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "python",
+                "pattern": {
+                    "regexp": "^(.*)$",
+                    "file": 1
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": ".*Uvicorn running on.*"
+                }
+            }
+        },
+        {
+            "label": "launch",
+            "dependsOn": ["frontend", "backend"],
+        }, 
+        {
+            "label": "stop",
+            "type": "shell",
+            "windows": {
+                "command": ".vscode/stop.bat"
+            },
+            "presentation": {
+                "reveal": "never",
+                "close": true
+            }
+        }  
+    ]
+} 

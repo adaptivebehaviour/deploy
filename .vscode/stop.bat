@@ -1,0 +1,2 @@
+taskkill /IM python.exe /F
+taskkill /IM node.exe /F

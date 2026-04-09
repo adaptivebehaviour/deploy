@@ -1,0 +1,50 @@
+/* @import "tailwindcss"; */
+@import "../tailwind.css";
+
+@utility border-dev { @apply border-2 border-shade1}
+
+@utility ui { @apply box-border font-ui}
+
+@utility border-horizontal { @apply border-y }
+@utility border-vertical { @apply border-x }
+
+@utility rounding { @apply rounded-lg}
+
+@utility screen { @apply ui container mx-auto min-w-full min-h-full}
+
+@utility app { @apply screen sm:max-w-full min-w-screen-min overflow-hidden bg-black} 
+
+@utility page { @apply screen}
+@utility page-dev { @apply page border-2 border-shade2}
+
+@utility component { @apply ui flex}
+
+@utility show-md { @apply hidden md:component}
+@utility show-lg { @apply hidden lg:component}
+@utility show-xl { @apply hidden xl:component}
+@utility show-2xl { @apply hidden 2xl:component}
+
+@utility hide-md { @apply component md:hidden}
+@utility hide-lg { @apply component lg:hidden}
+@utility hide-xl { @apply component xl:hidden}
+@utility hide-2xl { @apply component 2xl:hidden}
+
+@utility display { @apply component }
+
+@utility hug { @apply ui max-w-fit max-h-fit}
+
+@utility panel { @apply component hug }
+
+@utility item { @apply panel }
+
+@utility element { @apply component border rounding py-6 px-8 border rounding py-6 px-8 }
+
+@utility field { @apply element justify-between items-center }
+
+@utility button { @apply element justify-center }
+
+@utility group { @apply component gap-4 border-2 border-shade3}
+
+@utility document { @apply component gap-16}
+
+/* @utility image-sized { @apply object-none} */

@@ -1,0 +1,39 @@
+{
+    "content": [
+        "frontend",
+        "backend",
+        {
+            "id": "edit",
+            "inherit": true,
+            "content": [
+                {
+                    "path": "frontend>manifest.json",
+                    "key_path": "url",
+                    "value": {
+                        "frontend": "http://localhost:3000",
+                        "backend": "http://localhost:8080"
+                    }
+                }
+            ]
+        }
+    ],
+    "id": "server_child",
+    "type": "server",
+    "title": "Server_Child",
+    "description": "An application with a front end and back end that can be hosted on a server.",
+    "icon": "manifesto-star",
+    "mode": "lib",
+    "license": "mit",
+    "version": "0.1.0",
+    "url": {
+        "frontend": "http://localhost:3000",
+        "backend": "http://localhost:8080"
+    },
+    "keywords": [
+        "web applications",
+        "framework",
+        "python",
+        "back end",
+        "Adaptive Behaviour"
+    ]
+}

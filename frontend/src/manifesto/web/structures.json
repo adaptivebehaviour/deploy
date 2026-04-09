@@ -1,0 +1,116 @@
+[
+    {
+        "uuid": "174942f1-b94a-4be3-9c06-51b009f8a8b0",
+        "created_at": "2025-11-21T03:57:22.06977+00:00",
+        "id": "nav-bar",
+        "type": "structure>component",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "nav-bar",
+        "content": [
+            "Apps",
+            "Docs",
+            "About"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "17a4b7d5-b91a-4829-92e8-aa0a2287b99a",
+        "created_at": "2025-11-22T22:07:43.784235+00:00",
+        "id": "header",
+        "type": "structure>component>display",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "menu": "{$menu}",
+            "idPanel": "{$id-panel}",
+            "siteNav": "{$nav-bar}"
+        },
+        "factory": "header",
+        "content": [
+            "{#idPanel}",
+            "{#siteNav}",
+            "{#menu}"
+        ],
+        "properties": [
+            "colour",
+            "layout",
+            "horizontal",
+            "size48"
+        ]
+    },
+    {
+        "uuid": "433c3eb4-2663-46c6-a808-aad7660dcb57",
+        "created_at": "2025-11-22T21:25:42.009451+00:00",
+        "id": "webpage",
+        "type": "structure>component>screen",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "body": "{$body}",
+            "route": "",
+            "title": "Home",
+            "footer": "{$footer}",
+            "header": "{$header}"
+        },
+        "factory": "webpage",
+        "content": [
+            "{#header}",
+            "{#body}",
+            "{#footer}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "492806f0-1e09-4430-ae93-1cdc4c856d7f",
+        "created_at": "2025-12-08T00:12:32.096481+00:00",
+        "id": "footer",
+        "type": "structure>component>display",
+        "structure": {
+            "style": {},
+            "isHighlighted": false
+        },
+        "factory": "footer",
+        "content": [
+            "Made with Manifesto"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout"
+        ]
+    },
+    {
+        "uuid": "c7c9f2a2-a05e-430d-a37f-59cfefba8620",
+        "created_at": "2025-11-19T19:30:45.778096+00:00",
+        "id": "id-panel",
+        "type": "structure>component>panel",
+        "structure": {
+            "style": {},
+            "isHighlighted": false,
+            "logo": "{@cms$image?manifesto-star}",
+            "title": "Manifesto"
+        },
+        "factory": "id-panel",
+        "content": [
+            "{#logo}",
+            "{#title}"
+        ],
+        "properties": [
+            "colour",
+            "size",
+            "layout",
+            "horizontal"
+        ]
+    }
+]

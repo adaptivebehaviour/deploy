@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "id": "copy",
+            "inherit": true,
+            "content": [
+                "src>app>icon.png",
+                "src>app>layout.tsx",
+                "src>app>page.tsx",
+                "src>manifesto>server"
+            ]
+        },
+        {
+            "id": "edit",
+            "inherit": true,
+            "content": [
+                {
+                    "path": "tsconfig.json",
+                    "key_path": "compilerOptions>paths>@/server/*",
+                    "value": [
+                        "./src/manifesto/server/*"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "copy",
+            "inherit": true,
+            "content": [
+                "src>app>icon.png",
+                "src>app>layout.tsx",
+                "src>app>page.tsx",
+                "src>manifesto>server"
+            ]
+        },
+        {
+            "id": "edit",
+            "inherit": true,
+            "content": [
+                {
+                    "path": "tsconfig.json",
+                    "key_path": "compilerOptions>paths>@/server/*",
+                    "value": [
+                        "./src/manifesto/server/*"
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "frontend",
+    "type": "web",
+    "title": "Frontend",
+    "description": "An application with a front end and back end that can be hosted on a server.",
+    "icon": "manifesto-star",
+    "mode": "lib",
+    "license": "mit",
+    "version": "0.1.0",
+    "url": {
+        "frontend": "http://localhost:3000",
+        "backend": "http://localhost:8080"
+    },
+    "keywords": [
+        "web applications",
+        "framework",
+        "Next.js",
+        "front end",
+        "Adaptive Behaviour"
+    ]
+}

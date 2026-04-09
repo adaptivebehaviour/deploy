@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "frontend",
+            "type": "shell",
+            "command": ".vscode/frontend.bat",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "typescript",
+                "pattern": {
+                    "regexp": "^(.*)$",
+                    "file": 1
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": ".*(ready|Ready|Local:).*"
+                }
+            }
+        },
+        {
+            "label": "launch",
+            "dependsOn": ["frontend"]
+        },
+        {
+            "label": "stop",
+            "type": "shell",
+            "windows": {
+                "command": ".vscode/stop.bat"
+            },
+            "presentation": {
+                "reveal": "never",
+                "close": true
+            }
+        }    
+    ]
+} 
