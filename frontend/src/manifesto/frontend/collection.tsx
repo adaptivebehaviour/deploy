@@ -3,6 +3,8 @@ import * as Types from '@/frontend/types';
 export * from '@/frontend/types';
 import {getAll} from '@/frontend/registry';
 
+// Commit trigger
+
 export class Collection extends SuperCollection implements Types.CollectionInstance {
 
     constructor(args?: Types.CollectionArgs){
