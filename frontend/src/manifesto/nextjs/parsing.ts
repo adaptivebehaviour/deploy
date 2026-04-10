@@ -42,7 +42,7 @@ export class Parser {
 
     body: string;
 
-    queries: Types.Fields;
+    queries: Types.Fields; 
 
     isParseable: boolean;
 
@@ -53,18 +53,11 @@ export class Parser {
         this.token = token;
         this.reference = reference;
         this.body = '';
-        this.queries = {};
-        this.isParseable = false;    
+        this.queries = {}; 
         this.parsed = this.token;
-
-        if (this.token.length > 2) {
-            if (this.token.startsWith(Symbol.PARSING[0]) && this.token.endsWith(Symbol.PARSING[1]) && !/\s/.test(this.token)) {
-                this.body = this.token.substring(1, this.token.length - 1);
-                this.isParseable = Object.values(Symbol).some(symbol => {
-                    return symbol.length === 1 ? this.body.startsWith(symbol) : this.body.includes(symbol[0]) && this.body.includes(symbol[1]) && this.body.indexOf(symbol[0]) < this.body.indexOf(symbol[1])});
-            }
-        }
+        this.isParseable = Parser.isParseableToken(this.token);
         if(this.isParseable){
+            this.body = this.token.slice(1, -1);
             const tokens = [];
             let token = '';
             for (const character of this.body) {
@@ -114,12 +107,12 @@ export class Parser {
             return this.parsed;
         }
 
-        this.parseQueries();
-        const query = this.body.slice(this.body.indexOf(Symbol.QUERY));
-        let fetcher = this.body.slice(0, this.body.indexOf(Symbol.QUERY));
+        const hasQueries = this.parseQueries();
+        const query = hasQueries ? this.body.slice(this.body.indexOf(Symbol.QUERY)) : '';
+        let fetcher = hasQueries ? this.body.slice(0, this.body.indexOf(Symbol.QUERY)) : this.body;
         const idIndex = this.body.indexOf(Symbol.ID);
         const id = idIndex > -1 ? this.body.slice(idIndex, this.body.indexOf(Symbol.QUERY)) : null;
-        if(id !== null){
+        if(id !== null && id !==''){
             fetcher = this.body.slice(0, idIndex);
             const construct = Parser.parse(this.parsing(id) as string, this.factory, this.reference) as Types.Fields;
             const fetch = Parser.parse(this.parsing(fetcher + query) as string, this.factory, this.reference) as Types.Fields;
@@ -251,7 +244,7 @@ export class Parser {
     }
 
     static wrap(token: string): string {
-        return token.startsWith(Symbol.PARSING[0]) && token.endsWith(Symbol.PARSING[1]) ? token : Symbol.PARSING[0] + token + Symbol.PARSING[1];
+        return Symbol.PARSING[0] + token + Symbol.PARSING[1];
     }
 
     static parseText(text: string, factory: Types.Factories | null, reference: Types.Fields | null = null): string {
@@ -282,15 +275,105 @@ export class Parser {
     }
 
     static isParseableToken(token: string): boolean {
-        if (token.length > 2) {
-            if (token.startsWith(Symbol.PARSING[0]) && token.endsWith(Symbol.PARSING[1]) && !/\s/.test(token)) {
-                const body = token.substring(1, token.length - 1);
-                return Object.values(Symbol).some(symbol => {
-                    return symbol.length === 1 ? body.startsWith(symbol) : body.includes(symbol[0]) && body.includes(symbol[1]) && body.indexOf(symbol[0]) < body.indexOf(symbol[1])});
+        // Helper: check if string contains no spaces
+        function noSpaces(s: string) {
+            return !/\s/.test(s);
+        }
+
+        // Helper: check if bar
+        function isBar(s: string) {
+            return noSpaces(s) && !(s.startsWith(Symbol.PARSING[0]) && s.endsWith(Symbol.PARSING[1]));
+        }
+
+        // Helper: check for matching bracket pairs in foo
+        function containsMatchingPairs(s: string) {
+            const pairs = [Symbol.ARRAY, Symbol.PARSING, Symbol.CODE];
+            return pairs.some((pair) => {
+                const i = s.indexOf(pair[0]);
+                const j = s.indexOf(pair[1]);
+                return i !== -1 && j !== -1 && i < j;
+            });
+        }
+
+        // Helper: check if foo
+        function isFoo(s: string) {
+            if (s.length < 3) return false;
+            if (!(s.startsWith('{') && s.endsWith('}'))) return false;
+            if (!noSpaces(s)) return false;
+            // Symbols for second character
+            const allowedSymbols: string[] = [Symbol.FETCH, Symbol.ID, Symbol.REF, Symbol.ARG, Symbol.PATH];
+            if (allowedSymbols.includes(s[1])) {
+                return true;
+            }
+            // Or contains any of the allowed bracket pairs, leading before trailing
+            return containsMatchingPairs(s.slice(1, -1));
+        }
+
+        // Opening { at index 0 must pair with closing } at the last index only
+        function outerBracesEncloseEntireToken(s: string): boolean {
+            let depth = 0;
+            for (let i = 0; i < s.length; i++) {
+                if (s[i] === Symbol.PARSING[0]) depth++;
+                else if (s[i] === Symbol.PARSING[1]) {
+                    depth--;
+                    if (depth < 0) return false;
+                    if (depth === 0 && i !== s.length - 1) return false;
+                }
+            }
+            return depth === 0;
+        }
+
+        // Main check
+        if(token.length < 3) return false;
+        if (!(token.startsWith(Symbol.PARSING[0]) && token.endsWith(Symbol.PARSING[1]))) return false;
+        if (!noSpaces(token)) return false;
+        if (!outerBracesEncloseEntireToken(token)) return false;
+
+        // Strip outermost braces for content
+        const content = token.slice(1, -1);
+        if (isFoo(token)) return true;
+
+        // Composite: must be sequence of foo and/or bar, in any number/order
+        // We parse contiguous, non-overlapping segments that are either foo or bar
+        let i = 0, n = content.length;
+        while (i < n) {
+            // Try foo: look for leading '{' and find its matching '}'
+            if (content[i] === Symbol.PARSING[0]) {
+                let depth = 1;
+                let j = i + 1;
+                while (j < n && depth > 0) {
+                    if (content[j] === Symbol.PARSING[0]) depth++;
+                    else if (content[j] === Symbol.PARSING[1]) depth--;
+                    j++;
+                }
+                // Unmatched, not valid
+                if (depth !== 0) return false;
+                // Segment: substring with braces
+                const fooCandidate = content.slice(i, j);
+                if (!isFoo(fooCandidate)) return false;
+                i = j; // Move past this foo segment
+            } else {
+                // Try bar: stretch until next '{' or end
+                let j = i;
+                while (j < n && content[j] !== '{') j++;
+                const barCandidate = content.slice(i, j);
+                if (!isBar(barCandidate)) return false;
+                i = j;
             }
         }
-        return false;
+        return true;
     }
+
+    // static isParseableToken(token: string): boolean {
+    //     if (token.length > 2) {
+    //         if (token.startsWith(Symbol.PARSING[0]) && token.endsWith(Symbol.PARSING[1]) && !/\s/.test(token)) {
+    //             const body = token.substring(1, token.length - 1);
+    //             return Object.values(Symbol).some(symbol => {
+    //                 return symbol.length === 1 ? body.startsWith(symbol) : body.includes(symbol[0]) && body.includes(symbol[1]) && body.indexOf(symbol[0]) < body.indexOf(symbol[1])});
+    //         }
+    //     }
+    //     return false;
+    // }
 
     static isConstructableToken(token: string): boolean {
         if (token.length > 2) {
