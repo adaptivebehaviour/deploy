@@ -1,8 +1,9 @@
-import * as Constructors from '@/frontend/constructors';
-import * as Components from '@/frontend/components';
-import * as Types from '@/frontend/types';
-import * as Utils from '@/frontend/utils';
-import structures from '@/frontend/structures.json' assert { type: 'json' };
+
+import * as Constructors from '@/server_child2/constructors';
+import * as Components from '@/server_child2/components';
+import * as Types from '@/server_child2/types';
+import * as Utils from '@/server_child2/utils';
+import structures from '@/server_child2/structures.json' assert { type: 'json' };
 
 export function getStructures(structuresArg?: Types.Data<Types.IdField>): Types.Fields<Types.StructureArg> {
     const content = structures.filter((item) => !Utils.isType(item as Types.TypeField, 'property')) as unknown as Types.Data<Types.StructureArg>
@@ -18,7 +19,7 @@ export function getProperties(structuresArg?: Types.Data<Types.IdField>): Types.
 
 export function getConstructors(constructors: Types.Fields<Types.Constructors> = {}): Types.Fields<Types.Constructors> {
     return Object.assign({
-        'backend': Constructors.Backend,
+
     }, constructors) as Types.Fields<Types.Constructors>;
 }
 

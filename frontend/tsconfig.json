@@ -35,16 +35,19 @@
                 "./src/manifesto/logging"
             ],
             "@/collection/*": [
-                "./src/manifesto/frontend/*"
+                "./src/manifesto/server_child2/*"
             ],
-            "@/frontend/*": [
-                "./src/manifesto/frontend/*"
+            "@/server_child2/*": [
+                "./src/manifesto/server_child2/*"
             ],
             "@/nextjs/*": [
                 "./src/manifesto/nextjs/*"
             ],
             "@/web/*": [
                 "./src/manifesto/web/*"
+            ],
+            "@/frontend/*": [
+                "./src/manifesto/frontend/*"
             ]
         }
     },

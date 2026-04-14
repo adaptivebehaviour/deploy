@@ -1,29 +1,32 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import app.utils as utils
+import json
 from pathlib import Path
-from pydantic import BaseModel
-from app.module import Module
+from app.routes import routers
+# from pydantic import BaseModel
+# from app.modules.module import run as run_module
 
-
-APP_PATH = Path(__file__).parent
-MANIFEST = utils.read_json(APP_PATH.parent / "manifest.json")
-APP = Module('app', APP_PATH)
+manifest = None
+with open(Path(__file__).parent.parent / "manifest.json", 'r') as f:
+    manifest = json.load(f)
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=MANIFEST["url"]["frontend"],
+    allow_origins=manifest["url"]["frontend"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-@app.get("/")
-async def get():
-    return APP.run()
+for router in routers:
+    app.include_router(router)
 
-@app.post("/")
-async def post(baseModel: BaseModel):
-    APP.run(baseModel.model_dump_json())
+# @app.get("/")
+# async def get():
+#     return run_module()
+
+# @app.post("/")
+# async def post(baseModel: BaseModel):
+#     return run_module(baseModel.model_dump_json())

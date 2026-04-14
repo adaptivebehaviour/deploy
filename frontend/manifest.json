@@ -1,8 +1,9 @@
 {
     "content": [
         {
-            "id": "copy",
+            "id": "copy-parent",
             "inherit": true,
+            "operation": "copy",
             "content": [
                 "src>app>icon.png",
                 "src>app>layout.tsx",
@@ -11,31 +12,9 @@
             ]
         },
         {
-            "id": "edit",
+            "id": "edit-tsconfig",
             "inherit": true,
-            "content": [
-                {
-                    "path": "tsconfig.json",
-                    "key_path": "compilerOptions>paths>@/server/*",
-                    "value": [
-                        "./src/manifesto/server/*"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "copy",
-            "inherit": true,
-            "content": [
-                "src>app>icon.png",
-                "src>app>layout.tsx",
-                "src>app>page.tsx",
-                "src>manifesto>server"
-            ]
-        },
-        {
-            "id": "edit",
-            "inherit": true,
+            "operation": "edit",
             "content": [
                 {
                     "path": "tsconfig.json",
@@ -47,14 +26,16 @@
             ]
         }
     ],
-    "id": "frontend",
-    "type": "web",
-    "title": "Frontend",
+    "id": "server_child2",
+    "type": "frontend",
+    "source": "manifesto/server/frontend",
+    "title": "Server_Child2",
     "description": "An application with a front end and back end that can be hosted on a server.",
     "icon": "manifesto-star",
     "mode": "lib",
     "license": "mit",
     "version": "0.1.0",
+    "parent": "manifesto/server/frontend",
     "url": {
         "frontend": "http://localhost:3000",
         "backend": "http://localhost:8080"

@@ -1,10 +1,4 @@
 import json
-from pathlib import Path
-
-app_path = Path(__file__).parent
-
-
-import json
 import re
 from pathlib import Path
 
@@ -62,14 +56,6 @@ def read_json(path: Path | str):
 
 def write_json(data: dict, path: Path | str):
     path = resolve_path(path)
-    file = None
-    if path.exists():
-        with open(path, 'r') as f:
-            file = json.load(f)
-    if file is None:
-        file = data
-    else:
-        file |= data
     with open(path, 'w') as f:
-        json.dump(file, f, indent=4)
-    return file
+        json.dump(data, f, indent=4)
+    return data

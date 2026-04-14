@@ -3,8 +3,6 @@ import * as Types from '@/frontend/types';
 export * from '@/frontend/types';
 import {getAll} from '@/frontend/registry';
 
-// Commit trigger
-
 export class Collection extends SuperCollection implements Types.CollectionInstance {
 
     constructor(args?: Types.CollectionArgs){
@@ -15,5 +13,12 @@ export class Collection extends SuperCollection implements Types.CollectionInsta
             registry: getAll(args?.registry ?? {} as Types.Fields<Types.Fields<Types.Construct>>)
          } as Types.CollectionArgs;
         super(collectionArgs);
+    }
+
+    async fetch(arg: Types.Value): Promise<Types.Value>{
+
+        const fetcher = this.createInstance(arg) as Types.IFetcher;
+        return await fetcher.fetch();
+
     }
 }

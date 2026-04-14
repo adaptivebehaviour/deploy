@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": "backend",
+        "type": "structure>fetcher",
+        "structure": {
+            "schema": "{{%baseUrl}/{%target}}"
+        },
+        "factory": "backend",
+        "content": [],
+        "properties": []
+    }
+]
