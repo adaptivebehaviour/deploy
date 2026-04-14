@@ -37,7 +37,7 @@
     "version": "0.1.0",
     "parent": "manifesto/server/frontend",
     "url": {
-        "frontend": "http://localhost:3000",
+        "frontend": "https://deploy-tffe5.ondigitalocean.app",
         "backend": "http://localhost:8080"
     },
     "keywords": [
