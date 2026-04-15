@@ -7,6 +7,6 @@
 // let serverFetchComponent = collection.construct(text) as JSX;
 
 export default async function Home() {
-    return (<div>No components</div>);
+    return (<div>Home</div>);
 }
  

@@ -18,10 +18,10 @@
             ]
         }
     ],
-    "id": "server_child3",
+    "id": "server_child4",
     "type": "server",
     "source": "manifesto/server",
-    "title": "Server_Child3",
+    "title": "Server_Child4",
     "description": "An application with a front end and back end that can be hosted on a server.",
     "icon": "manifesto-star",
     "mode": "lib",
