@@ -1,9 +1,9 @@
 {
     "content": [],
-    "id": "server_child2",
+    "id": "server_child3",
     "type": "app",
     "source": "manifesto/server/backend",
-    "title": "Server_Child2",
+    "title": "Server_Child3",
     "description": "An application with a front end and back end that can be hosted on a server.",
     "icon": "manifesto-star",
     "mode": "lib",

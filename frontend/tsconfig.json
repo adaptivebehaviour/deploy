@@ -35,10 +35,10 @@
                 "./src/manifesto/logging"
             ],
             "@/collection/*": [
-                "./src/manifesto/server_child2/*"
+                "./src/manifesto/server_child3/*"
             ],
-            "@/server_child2/*": [
-                "./src/manifesto/server_child2/*"
+            "@/server_child3/*": [
+                "./src/manifesto/server_child3/*"
             ],
             "@/nextjs/*": [
                 "./src/manifesto/nextjs/*"
